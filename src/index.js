@@ -6,7 +6,8 @@ import "./index.css";
 
 // import App from "./App";
 // import EmpleadosList from "./components/EmpleadosList";
-import App from "./App";
+// import App from "./App";
+import Galeria from "./components/Galeria";
 
 // const elemento = <h1>Hola React!</h1>;
 const contenedor = document.querySelector("#root");
@@ -19,4 +20,5 @@ const contenedor = document.querySelector("#root");
 // };
 
 // ReactDOM.render(<EmpleadosList />, contenedor);
-ReactDOM.render(<App initialValue={0} />, contenedor);
+// ReactDOM.render(<App initialValue={0} />, contenedor);
+ReactDOM.render(<Galeria />, contenedor);

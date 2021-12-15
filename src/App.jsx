@@ -12,6 +12,9 @@ const App = ({ initialValue }) => {
       <div className="row">
         <div className="col">
           <h3>Contador: {counter}</h3>
+          <button onClick={() => setCounter(counter + 1)}>+1</button>
+          <button onClick={() => setCounter(initialValue)}>Reset</button>
+          <button onClick={() => setCounter(counter - 1)}>-1</button>
         </div>
       </div>
     </div>
